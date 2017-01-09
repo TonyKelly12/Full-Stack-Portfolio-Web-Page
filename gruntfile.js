@@ -25,12 +25,23 @@ module.exports = function(grunt){
                 files: ['frameworks/js/*.js'],
                 tasks: ['uglify:dev']
             }
-        }
+        },
+        responsive_images: {
+    dev: {
+      files: [{
+        expand: true,
+        src: ['app/img/**/*.{jpg,gif,png}'],
+        cwd: 'src/',
+        dest: 'dist/'
+      }]
+    }
+  },
     });
 
     //Load Plugins
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-responsive-images');
     //Register Task(s)
     grunt.registerTask('default', ['uglify:dev']);
     grunt.registerTask('build', ['uglify:build']);
