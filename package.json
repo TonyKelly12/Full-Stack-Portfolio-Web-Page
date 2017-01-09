@@ -19,6 +19,8 @@
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-uglify": "^2.0.0",
-    "grunt-contrib-watch": "^1.0.0"
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-responsive-images": "^1.10.1",
+    "imager.js": "^0.5.0"
   }
 }
