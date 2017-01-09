@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "0.0.1",
+  "description": "Tony Kelly's Full Stack Development Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TonyKelly12/Full-Stack-Portfolio-Web-Page.git"
+  },
+  "author": "Tony Kelly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TonyKelly12/Full-Stack-Portfolio-Web-Page/issues"
+  },
+  "homepage": "https://github.com/TonyKelly12/Full-Stack-Portfolio-Web-Page#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
