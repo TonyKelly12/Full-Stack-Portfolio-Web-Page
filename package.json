@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/TonyKelly12/Full-Stack-Portfolio-Web-Page#readme",
   "devDependencies": {
+    "bootstrap": "^3.3.7",
     "grunt": "^1.0.1",
     "grunt-contrib-uglify": "^2.0.0",
     "grunt-contrib-watch": "^1.0.0",
