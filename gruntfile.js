@@ -20,10 +20,32 @@ module.exports = function(grunt){
             }
 
         },
+        sass: {
+            dev:{
+                options:{
+                    outputStyle: 'expanded'
+                },
+                files:{
+                    'run/css/stles.css' : 'frameworks/Scss/main.scss'
+                }
+            },
+            build:{
+                options:{
+                    outputStyle: 'compressed'
+                },
+                files:{
+                    'run/css/styles.css' : 'frameworks/scss/main.scss'
+                }
+            }
+        },
         watch: {
             js: {
                 files: ['frameworks/js/*.js'],
                 tasks: ['uglify:dev']
+            },
+            css:{
+                files: ['frameworks/scss/**/*.scss'],
+                task: ['sass:dev']
             }
         },
         responsive_images: {
@@ -41,8 +63,9 @@ module.exports = function(grunt){
     //Load Plugins
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-sass');
     grunt.loadNpmTasks('grunt-responsive-images');
     //Register Task(s)
-    grunt.registerTask('default', ['uglify:dev']);
-    grunt.registerTask('build', ['uglify:build']);
+    grunt.registerTask('default', ['uglify:dev', 'sass:dev']);
+    grunt.registerTask('build', ['uglify:build', 'sass:build']);
 };
