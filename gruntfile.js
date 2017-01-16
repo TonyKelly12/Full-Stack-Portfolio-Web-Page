@@ -16,7 +16,7 @@ module.exports = function(grunt){
                     preserveComments: 'all'
                 },
                 src: 'frameworks/js/*.js',
-                dest: 'run/js-min/script.min.js'
+                dest: 'run/js/script.min.js'
             }
 
         },
@@ -26,7 +26,7 @@ module.exports = function(grunt){
                     outputStyle: 'expanded'
                 },
                 files:{
-                    'run/css/stles.css' : 'frameworks/Scss/main.scss'
+                    'run/css/styles.css' : 'frameworks/Scss/main.scss'
                 }
             },
             build:{
@@ -38,14 +38,24 @@ module.exports = function(grunt){
                 }
             }
         },
+        connect:{
+            dev:{
+                options:{
+                    port:8080,
+                    base:'run',
+                    keepalive: true
+                }
+            }
+        },
+            
         watch: {
             js: {
                 files: ['frameworks/js/*.js'],
-                tasks: ['uglify:dev']
+                tasks: ['uglify: dev']
             },
             css:{
                 files: ['frameworks/scss/**/*.scss'],
-                task: ['sass:dev']
+                tasks: ['sass:dev']
             }
         },
         responsive_images: {
@@ -65,7 +75,11 @@ module.exports = function(grunt){
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-sass');
     grunt.loadNpmTasks('grunt-responsive-images');
+    grunt.loadNpmTasks('grunt-contrib-connect');
     //Register Task(s)
     grunt.registerTask('default', ['uglify:dev', 'sass:dev']);
     grunt.registerTask('build', ['uglify:build', 'sass:build']);
+    grunt.registerTask('serv', function (){
+      return grunt.task.run(['default','connect:dev']);  
+    });
 };
