@@ -43,12 +43,16 @@ module.exports = function(grunt){
                 options:{
                     port:8080,
                     base:'run',
-                    keepalive: true
+                    keepalive: false,
+                    livereload: true
                 }
             }
         },
             
         watch: {
+            options:{
+                livereload: true
+            },
             js: {
                 files: ['frameworks/js/*.js'],
                 tasks: ['uglify: dev']
@@ -56,7 +60,7 @@ module.exports = function(grunt){
             css:{
                 files: ['frameworks/scss/**/*.scss'],
                 tasks: ['sass:dev']
-            }
+            },
         },
         responsive_images: {
     dev: {
@@ -79,7 +83,5 @@ module.exports = function(grunt){
     //Register Task(s)
     grunt.registerTask('default', ['uglify:dev', 'sass:dev']);
     grunt.registerTask('build', ['uglify:build', 'sass:build']);
-    grunt.registerTask('serv', function (){
-      return grunt.task.run(['default','connect:dev']);  
-    });
+    grunt.registerTask('serv', ['default','connect:dev', 'watch']);
 };
