@@ -11,27 +11,46 @@ img, embed, object, video {
   display: block;
 }
 
-#title {
+.header {
   font-family: 'Arizonia', cursive;
-  text-align: right;
   display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  text-align: right;
+  height: 35%;
 }
 
-#title h1 {
+.header h1 {
   font-size: 4.5em;
   padding-bottom: -5%;
-  margin: 1%;
-  order: 2;
+  margin: .1%;
+  order: 0;
 }
 
-#title h1 h3 {
+.header h3 {
   font-size: 1.5em;
-  margin: 1%;
-  order: 3;
+  margin: .1%;
 }
 
-#title h1 img {
+.title:nth-child(1) {
+  width: 70%;
+  align-self: flex-start;
+}
+
+.title:nth-child(3) {
+  display: flex;
+  width: 25%;
   order: 1;
+  align-self: stretch;
+  justify-content: flex-end;
+  align-self: flex-end;
+}
+
+.title:nth-child(2) {
+  width: 70%;
+  order: 2;
+  height: 1%;
+  align-self: flex-start;
 }
 
 #midsect {
