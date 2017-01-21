@@ -2,9 +2,13 @@ img, embed, object, video {
   max-width: 100%;
 }
 
+body {
+  background-color: blue;
+}
+
 .container {
   max-width: 100%;
-  padding-left: 5%;
+  padding-left: 5px;
 }
 
 .colorblocks {
@@ -59,7 +63,7 @@ img, embed, object, video {
 
 #mainImg {
   max-width: 85%;
-  padding-left: 5%;
+  padding-left: 5px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -67,14 +71,6 @@ img, embed, object, video {
 #workTitle {
   text-align: left;
   padding-left: 15.5%;
-}
-
-.projects {
-  max-width: 85%;
-  padding-left: 25.5%;
-  display: flex;
-  justify-content: flex-end;
-  text-align: center;
 }
 
 #work1, #work2, #work3 {

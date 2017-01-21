@@ -26,7 +26,9 @@ module.exports = function(grunt){
                     outputStyle: 'expanded'
                 },
                 files:{
-                    'run/css/styles.css' : 'frameworks/Scss/main.scss'
+                    'run/css/styles.css' : 'frameworks/Scss/main.scss',
+                    'run/css/styles-sm.css' : 'frameworks/Scss/portfolio-sm.scss',
+                    'run/css/styles-lg.css' : 'frameworks/Scss/portfolio-lg.scss'
                 }
             },
             build:{
