@@ -8,9 +8,16 @@ body {
 
 .container {
   max-width: 100%;
-  padding-left: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.colorblocks {
   display: flex;
   flex-wrap: wrap;
+  max-width: 100%;
+  margin: auto;
+  order: 2;
 }
 
 .header {
@@ -57,29 +64,47 @@ body {
 
 #midsect {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #mainImg {
-  max-width: 85%;
+  max-width: 88%;
   padding-left: 5px;
   margin-left: auto;
   margin-right: auto;
 }
 
+.jumboimg {
+  padding-bottom: 0px;
+  padding-right: 5px;
+  display: flex;
+  justify-content: center;
+}
+
 #workTitle {
+  display: flex;
   text-align: left;
-  padding-left: 15.5%;
+  justify-content: flex-start;
+}
+
+.projects {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 0px;
 }
 
 #work1, #work2, #work3 {
-  margin-left: 25px;
-  margin-right: 25px;
-  padding-left: 25px;
-  padding-right: 25px;
+  max-width: 100%;
+  padding-right: 50px;
 }
 
 #colorblock1, #colorblock2, #colorblock3 {
-  max-width: 100%;
-  padding-top: 15%;
-  padding-bottom: 15%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline;
 }

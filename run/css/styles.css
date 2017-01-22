@@ -3,12 +3,10 @@ img, embed, object, video {
 }
 
 .container {
+  width: 100%;
   max-width: 100%;
-  padding-left: 5%;
-}
-
-.colorblocks {
-  display: block;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .header {
@@ -23,6 +21,7 @@ img, embed, object, video {
 .header h1 {
   font-size: 4.5em;
   padding-bottom: -5%;
+  padding-right: 10%;
   margin: .1%;
   order: 0;
 }
@@ -30,6 +29,7 @@ img, embed, object, video {
 .header h3 {
   font-size: 1.5em;
   margin: .1%;
+  padding-right: 10%;
 }
 
 .title:nth-child(1) {
@@ -55,6 +55,8 @@ img, embed, object, video {
 
 #midsect {
   display: flex;
+  padding-left: 10%;
+  padding-right: 5%;
 }
 
 #mainImg {
@@ -65,27 +67,28 @@ img, embed, object, video {
 }
 
 #workTitle {
+  display: flex;
   text-align: left;
-  padding-left: 15.5%;
 }
 
 .projects {
-  max-width: 85%;
-  padding-left: 25.5%;
+  max-width: 100%;
+  padding-left: 15.5%;
   display: flex;
   justify-content: flex-end;
   text-align: center;
 }
 
 #work1, #work2, #work3 {
-  margin-left: 25px;
-  margin-right: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
   padding-left: 25px;
   padding-right: 25px;
+  width: 100%;
 }
 
 #colorblock1, #colorblock2, #colorblock3 {
   max-width: 100%;
-  padding-top: 15%;
-  padding-bottom: 15%;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
