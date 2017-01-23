@@ -3,7 +3,11 @@ img, embed, object, video {
 }
 
 body {
-  background-color: green;
+  background: url("../img/svg/background.svg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .container {
@@ -27,6 +31,7 @@ body {
   flex-wrap: wrap;
   text-align: right;
   height: 35%;
+  text-shadow: 3px 2px 12px black;
 }
 
 .header h1 {
@@ -48,7 +53,7 @@ body {
 
 .title:nth-child(3) {
   display: flex;
-  width: 25%;
+  width: 30%;
   order: 1;
   align-self: stretch;
   justify-content: flex-end;

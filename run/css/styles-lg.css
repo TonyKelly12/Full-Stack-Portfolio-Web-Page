@@ -3,7 +3,11 @@ img, embed, object, video {
 }
 
 body {
-  background-color: lightskyblue;
+  background: url("../img/svg/background.svg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .container {
@@ -15,12 +19,13 @@ body {
 
 .header {
   max-width: 100%;
-  font-family: 'Arizonia', cursive;
+  font-family: 'Arizonia', cursive, bold;
+  color: white;
   display: flex;
   flex-direction: row-reverse;
   flex-wrap: wrap;
   text-align: right;
-  flex-grow: 1;
+  margin: auto;
 }
 
 .header h1 {
@@ -32,34 +37,35 @@ body {
 }
 
 .header h3 {
-  font-size: 1.5em;
+  font-size: 2em;
   margin: .1%;
   padding-right: 15%;
 }
 
 .title:nth-child(1) {
-  width: 70%;
+  width: 50%;
   align-self: flex-start;
-}
-
-.title:nth-child(3) {
-  display: flex;
-  max-width: 25%;
-  order: 1;
-  justify-content: flex-end;
-  align-self: flex-end;
 }
 
 .title:nth-child(2) {
-  width: 70%;
-  order: 2;
-  height: 1%;
-  align-self: flex-start;
+  display: flex;
+  height: 100px;
+  width: 10%;
+  max-width: 20%;
+  order: 1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
 }
 
 #midsect {
   max-width: 100%;
   display: flex;
+}
+
+.jumbotron {
+  background-color: darkorange;
+  margin: auto;
 }
 
 #mainImg {
@@ -77,14 +83,29 @@ body {
 .projects {
   max-width: 100%;
   display: flex;
-  justify-content: flex-end;
+  flex-wrap: wrap;
   justify-content: space-between;
   text-align: center;
 }
 
-#work1, #work2, #work3 {
-  max-width: 80%;
-  width: 100%;
+#work1 {
+  max-width: 100%;
+  width: 20vw;
+  height: 500px;
+  padding-left: 5px;
+}
+
+#work2 {
+  max-width: 100%;
+  width: 20vw;
+  padding-left: 5px;
+  height: 500px;
+}
+
+#work3 {
+  max-width: 100%;
+  width: 20vw;
+  height: 500px;
   padding-left: 5px;
   padding-right: 5px;
 }
