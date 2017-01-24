@@ -6,15 +6,15 @@ img, embed, object, video{
 body{
     background: url('../img/svg/background.svg') no-repeat center center fixed ;
     -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
    
 }
 
 .container{
-  width: 100%;
-  max-width: 100%;
+    width: 100%;
+    max-width: 100%;
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -25,6 +25,7 @@ body{
 }
 
 .header {
+    max-height: 100%;
     max-width: 100%;
     font-family: 'Arizonia', cursive, bold;
     color: white;
@@ -33,34 +34,33 @@ body{
     flex-wrap: wrap;
     text-align: right;
     margin: auto;
-         h1{ font-size: 4.5em;
+      padding-top: 5%;  
+        
+         h1{ font-size: 7.5vw;
          padding-bottom: -5%;
          padding-right: 15%;
          margin: .1%;
          order:0;
         }
              h3{
-                 font-size: 2em;
-                 margin: .1%;
+                font-size: 3vw;
+                margin: .1%;
                 padding-right: 15%;
                }       
 }
 
 .title:nth-child(1){
-    width: 50%;
+    width: 70%;
+    height: 1%;
     align-self: flex-start;
 }
 
 .title:nth-child(2){
-    display: flex;
-    height: 100px;
-    width:10%;
-    max-width: 20%;
-    
-    order: 1;
-    padding-top:10px;
-    padding-bottom: 10px;
-    padding-right: 20px;
+    width: 15%;
+    order: 2;
+    height: 1%;
+    align-self: flex-start;
+    padding-right: 25px; 
    
 }
 
@@ -71,6 +71,7 @@ body{
 #midsect{
     max-width: 100%;
     display:flex;
+    margin: 2.5%
 }
 
 .jumbotron{
@@ -83,12 +84,12 @@ max-width:85%;
 padding-left: $leftpad;
 margin-left: auto;
 margin-right: auto;  
-
+box-shadow: 0 0 10px #777; 
 }
 
 #workTitle{
     display: flex;
-   padding-left: 10%;
+    padding-left: 10%;
     
 }
 

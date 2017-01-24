@@ -46,17 +46,8 @@ body {
   align-self: flex-start;
 }
 
-.title:nth-child(3) {
-  display: flex;
-  width: 25%;
-  order: 1;
-  align-self: stretch;
-  justify-content: flex-end;
-  align-self: flex-end;
-}
-
 .title:nth-child(2) {
-  width: 70%;
+  width: 20%;
   order: 2;
   height: 1%;
   align-self: flex-start;
