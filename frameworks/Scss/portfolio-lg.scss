@@ -27,7 +27,7 @@ body{
 .header {
     max-height: 100%;
     max-width: 100%;
-    font-family: 'Arizonia', cursive, bold;
+    font-family: 'Arizonia', cursive,;
     color: white;
     display:flex;
     flex-direction: row-reverse;
@@ -77,7 +77,24 @@ body{
 .jumbotron{
     background-color: darkorange;
     margin: auto;
+h2,h3,p{
+        color: white;
+        
+    }
+    h2{
+        font-family: 'Arizonia', cursive,;
+        text-align: center;
+        font-size: 3.2vw;
+        padding-bottom: 5px;
+        font-size: 4vw;
+    }
+    img{
+    box-shadow: 0 0 15px #777;
+    border: 2px solid black;
 }
+}
+
+
 
 #mainImg{
 max-width:85%;
@@ -95,35 +112,42 @@ box-shadow: 0 0 10px #777;
 
 .projects{
     max-width: 100%;
-    //padding-left: 25.5%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     text-align: center;
+    color: white;
 }
 
 #work1{
-    max-width: 100%;
+    max-width: 76%;
     width:20vw;
-    height: 500px;
-    padding-left: 5px;
+    height:500px;
+    
+    h3{
+
+    }
+    h4{
+
+    }
+    p{
+
+    }
+    
     
 } 
 
 #work2{
-    max-width: 100%;
+    max-width: 107%;
     width:20vw;
-    padding-left: 5px;
     height: 500px;
 } 
 
 #work3{
-    max-width: 100%;
+    max-width: 97%;
     width:20vw;
     height: 500px;
-    padding-left: 5px;
-    padding-right:5px;
-    }
+} 
     
  
   

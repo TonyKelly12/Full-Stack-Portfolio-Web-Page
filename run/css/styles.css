@@ -18,45 +18,72 @@ body {
 }
 
 .header {
-  font-family: 'Arizonia', cursive;
+  max-height: 100%;
+  max-width: 100%;
+  font-family: "Arizonia", cursive;
+  color: white;
   display: flex;
   flex-direction: row-reverse;
   flex-wrap: wrap;
   text-align: right;
-  height: 35%;
-  text-shadow: 3px 2px 12px black;
+  margin: auto;
+  padding-top: 5%;
 }
 
 .header h1 {
-  font-size: 4.5em;
+  font-size: 7.5vw;
   padding-bottom: -5%;
-  padding-right: 10%;
+  padding-right: 15%;
   margin: .1%;
   order: 0;
 }
 
 .header h3 {
-  font-size: 1.5em;
+  font-size: 3vw;
   margin: .1%;
-  padding-right: 10%;
+  padding-right: 15%;
 }
 
 .title:nth-child(1) {
   width: 70%;
-  align-self: flex-start;
-}
-
-.title:nth-child(2) {
-  width: 20%;
-  order: 2;
   height: 1%;
   align-self: flex-start;
 }
 
+.title:nth-child(2) {
+  width: 15%;
+  order: 2;
+  height: 1%;
+  align-self: flex-start;
+  padding-right: 25px;
+}
+
 #midsect {
+  max-width: 100%;
   display: flex;
-  padding-left: 10%;
-  padding-right: 5%;
+  margin: 2.5%;
+}
+
+.jumbotron {
+  background-color: darkorange;
+  margin: auto;
+}
+
+.jumbotron h2, .jumbotron h3, .jumbotron p {
+  color: white;
+}
+
+.jumbotron h2 {
+  font-family: "Arizonia", cursive;
+  text-align: center;
+  font-size: 3.2vw;
+  padding-bottom: 5px;
+  font-size: 4vw;
+}
+
+.jumbotron img {
+  box-shadow: 0 0 15px #777;
+  border: 2px solid black;
 }
 
 #mainImg {
@@ -64,28 +91,39 @@ body {
   padding-left: 5%;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 0 0 10px #777;
 }
 
 #workTitle {
   display: flex;
-  text-align: left;
+  padding-left: 10%;
 }
 
 .projects {
   max-width: 100%;
-  padding-left: 15.5%;
   display: flex;
-  width: 100%;
-  justify-content: flex-end;
+  flex-wrap: wrap;
+  justify-content: space-between;
   text-align: center;
+  color: white;
 }
 
-#work1, #work2, #work3 {
-  padding-left: 25px;
-  padding-right: 25px;
-  width: 33%;
-  height: 33%;
-  max-width: 100%;
+#work1 {
+  max-width: 76%;
+  width: 20vw;
+  height: 500px;
+}
+
+#work2 {
+  max-width: 107%;
+  width: 20vw;
+  height: 500px;
+}
+
+#work3 {
+  max-width: 97%;
+  width: 20vw;
+  height: 500px;
 }
 
 #colorblock1, #colorblock2, #colorblock3 {

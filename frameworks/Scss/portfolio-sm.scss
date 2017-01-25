@@ -80,6 +80,10 @@ margin-right: auto;
     padding-right: 5px;
     display: flex;
     justify-content: center;
+
+    p{
+        color: white;
+    }
 }
 #workTitle{
     display: flex;
@@ -97,6 +101,8 @@ margin-right: auto;
 }
 
 #work1, #work2, #work3{
+
+
 max-width: 100%;
 padding-right:50px;
 

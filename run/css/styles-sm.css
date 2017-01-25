@@ -78,6 +78,10 @@ body {
   justify-content: center;
 }
 
+.jumboimg p {
+  color: white;
+}
+
 #workTitle {
   display: flex;
   text-align: left;
