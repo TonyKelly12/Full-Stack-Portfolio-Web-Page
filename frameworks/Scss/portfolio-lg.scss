@@ -86,7 +86,7 @@ h2,h3,p{
         text-align: center;
         font-size: 3.2vw;
         padding-bottom: 5px;
-        font-size: 4vw;
+        font-size: 5vw;
     }
     img{
     box-shadow: 0 0 15px #777;
@@ -104,10 +104,19 @@ margin-right: auto;
 box-shadow: 0 0 10px #777; 
 }
 
-#workTitle{
-    display: flex;
-    padding-left: 10%;
-    
+#workTitle {
+   padding-top: 10px;
+   padding-bottom: 30px;
+   max-height: 100%;
+   max-width: 100%;
+   text-align: center;
+  
+   font-family: 'Arizonia', cursive,;
+   color: white;
+   
+   h1{
+        font-size: 7.5vw;
+   }
 }
 
 .projects{
@@ -117,6 +126,8 @@ box-shadow: 0 0 10px #777;
     justify-content: space-between;
     text-align: center;
     color: white;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 
 #work1{
@@ -125,13 +136,12 @@ box-shadow: 0 0 10px #777;
     height:500px;
     
     h3{
-
+        font-size: 30px;
+        
     }
-    h4{
-
-    }
+    
     p{
-
+        font-size: 16px
     }
     
     
@@ -141,12 +151,37 @@ box-shadow: 0 0 10px #777;
     max-width: 107%;
     width:20vw;
     height: 500px;
+
+     h3{
+        font-size: 30px;
+        color: white;
+    }
+
+        h4{
+            font-size:20px;
+        }
+    
+    p{
+        font-size: 16px
+    }
+    
+    
 } 
 
 #work3{
     max-width: 97%;
     width:20vw;
     height: 500px;
+
+     h3{
+        font-size: 30px;
+    }
+    
+    p{
+        font-size: 16px
+    }
+    
+    
 } 
     
  
@@ -158,5 +193,12 @@ box-shadow: 0 0 10px #777;
     padding-top: 5px;
     padding-bottom: 5px;
     
+}
+
+.glyphicon{
+    display: none;
+}
+.nav{
+    display: inline;
 }
 

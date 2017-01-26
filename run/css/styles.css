@@ -95,8 +95,14 @@ body {
 }
 
 #workTitle {
-  display: flex;
-  padding-left: 10%;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  max-height: 100%;
+  max-width: 100%;
+  text-align: center;
+  font-family: "Arizonia", cursive;
+  color: white;
+  font-size: 10vw;
 }
 
 .projects {
@@ -130,4 +136,13 @@ body {
   max-width: 100%;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+.glyphicon {
+  font-size: 7vw;
+  color: white;
+}
+
+.nav {
+  display: none;
 }

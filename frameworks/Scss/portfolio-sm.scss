@@ -55,8 +55,8 @@ body{
 
 
 .title:nth-child(2){
-    width: 70%;
-    order: 2;
+    width: 40%;
+    order: -1;
     height: 1%;
     align-self: flex-start;
      
@@ -75,40 +75,106 @@ margin-left: auto;
 margin-right: auto;  
 
 }
-.jumboimg{
-    padding-bottom: 0px;
-    padding-right: 5px;
-    display: flex;
-    justify-content: center;
-
-    p{
+.jumbotron{
+    background-color: darkorange;
+    margin: auto;
+h2,h3,p{
         color: white;
+        
     }
+    h2{
+        font-family: 'Arizonia', cursive,;
+        text-align: center;
+        font-size: 7.2vw;
+        padding-bottom: 10px;
+       
+    }
+    p{
+        font-size: 14px;
+    }
+    img{
+    box-shadow: 0 0 15px #777;
+    border: 2px solid black;
 }
-#workTitle{
-    display: flex;
-    text-align: left;
-    justify-content: flex-start;
+}
+
+#workTitle {
+   padding-top: 10px;
+   padding-bottom: 30px;
+   max-height: 100%;
+   max-width: 100%;
+   text-align: center;
+   font-family: 'Arizonia', cursive,;
+   color: white;
+   
+   h1{
+        font-size: 17.5vw;
+   }
 }
 
 .projects{
-   max-width: 100%;
+    max-width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     text-align: center;
-   padding: 0px;
-   
+    color: white;
+    
 }
 
-#work1, #work2, #work3{
+#work1{
+    max-width: 100%;
+    width:65vw;
+    
+    
+    h3{
+        font-size: 30px;
+        
+    }
+    
+    p{
+        font-size: 16px
+    }
+    
+    
+} 
 
+#work2{
+    max-width: 100%;
+    width:75vw;
+    padding: 5%;
 
-max-width: 100%;
-padding-right:50px;
+     h3{
+        font-size: 30px;
+        color: white;
+    }
 
+        h4{
+            font-size:20px;
+        }
+    
+    p{
+        font-size: 16px
+    }
+    
+    
+} 
 
+#work3{
+    max-width: 100%;
+    width:75vw;
+    
 
-}
+     h3{
+        font-size: 30px;
+    }
+    
+    p{
+        font-size: 16px
+    }
+    
+    
+} 
 
 #colorblock1, #colorblock2, #colorblock3{
    
@@ -117,5 +183,13 @@ padding-right:50px;
     margin-left: auto;
     margin-right: auto;
     display: inline;
+}
+.nav{
+    display: none;
+    
+}
+.glyphicon{
+    font-size: 7vw;
+    color: white;
 }
 

@@ -52,8 +52,8 @@ body {
 }
 
 .title:nth-child(2) {
-  width: 70%;
-  order: 2;
+  width: 40%;
+  order: -1;
   height: 1%;
   align-self: flex-start;
 }
@@ -71,34 +71,97 @@ body {
   margin-right: auto;
 }
 
-.jumboimg {
-  padding-bottom: 0px;
-  padding-right: 5px;
-  display: flex;
-  justify-content: center;
+.jumbotron {
+  background-color: darkorange;
+  margin: auto;
 }
 
-.jumboimg p {
+.jumbotron h2, .jumbotron h3, .jumbotron p {
   color: white;
 }
 
+.jumbotron h2 {
+  font-family: "Arizonia", cursive;
+  text-align: center;
+  font-size: 7.2vw;
+  padding-bottom: 10px;
+}
+
+.jumbotron p {
+  font-size: 14px;
+}
+
+.jumbotron img {
+  box-shadow: 0 0 15px #777;
+  border: 2px solid black;
+}
+
 #workTitle {
-  display: flex;
-  text-align: left;
-  justify-content: flex-start;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  max-height: 100%;
+  max-width: 100%;
+  text-align: center;
+  font-family: "Arizonia", cursive;
+  color: white;
+}
+
+#workTitle h1 {
+  font-size: 17.5vw;
 }
 
 .projects {
   max-width: 100%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   text-align: center;
-  padding: 0px;
+  color: white;
 }
 
-#work1, #work2, #work3 {
+#work1 {
   max-width: 100%;
-  padding-right: 50px;
+  width: 65vw;
+}
+
+#work1 h3 {
+  font-size: 30px;
+}
+
+#work1 p {
+  font-size: 16px;
+}
+
+#work2 {
+  max-width: 100%;
+  width: 75vw;
+  padding: 5%;
+}
+
+#work2 h3 {
+  font-size: 30px;
+  color: white;
+}
+
+#work2 h4 {
+  font-size: 20px;
+}
+
+#work2 p {
+  font-size: 16px;
+}
+
+#work3 {
+  max-width: 100%;
+  width: 75vw;
+}
+
+#work3 h3 {
+  font-size: 30px;
+}
+
+#work3 p {
+  font-size: 16px;
 }
 
 #colorblock1, #colorblock2, #colorblock3 {
@@ -107,4 +170,13 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: inline;
+}
+
+.nav {
+  display: none;
+}
+
+.glyphicon {
+  font-size: 7vw;
+  color: white;
 }
