@@ -16,7 +16,8 @@
      <link href="https://fonts.googleapis.com/css?family=Arizonia|Kaushan+Script" rel="stylesheet">   
      <link rel="stylesheet" href="css/styles.css">
      <link rel="stylesheet" media="screen and (max-width:500px)" href="css/styles-sm.css">
-     <link rel="stylesheet" media="screen and (min-width:750px)" href="css/styles-lg.css"> 
+     <link rel="stylesheet" media="screen and (min-width:760px)" href="css/styles-lg.css">
+     <script src="js/hamburger.js"></script> 
     </head>
     <body>
    <div class = "container">
@@ -33,64 +34,75 @@
              <div class = "col-md-12, header"> 
                 <div class = 'col-md-4 title'>
                     <h1>Tony Kelly</h1>
-                 <h3> Fullstack Developer </h3>
+                    <h3> Fullstack Developer </h3>
                  </div>
                 <div class = 'col-md-4 title img-responsive'> <img src="img/png/Color Nerds Logo1.png"></div>
             </div>   
         </div> 
-       </header>
-        <div class="row" id = 'midsect'>  
-            <div class = "colorblocks"> 
-            <div class = "col-md-8" id = 'colorblock1'> 
-              <img src="http://placehold.it/60x60" class = "img-rounded">  
-            </div>
-             <div class = "col-md-8" id = 'colorblock2'> 
-              <img src="http://placehold.it/60x60" class = "img-rounded">  
-            </div>
-             <div class = "col-md-8" id = 'colorblock3'> 
-              <img src="http://placehold.it/60x60" class = "img-rounded">  
-            </div>
-        </div>  
-             <div class = "col-md-12, jumbotron" id ='mainImg'>
-               <h2>Web design and development from the ground up.</h2>
+    </header>
+        <section class ='middle'>
+            <div class="row" id = 'midsect'>  
+                <div class = "colorblocks"> 
+                    <div class = "col-md-8" id = 'colorblock1'> 
+                       <a href="https://www.facebook.com/ColorNerds/?ref=aymt_homepage_panel"> <img src="img/svg/facebook-logo.svg" class = "img-rounded"> </a>
+                </div>
+                    <div class = "col-md-8" id = 'colorblock2'> 
+                        <a href="https://www.linkedin.com/in/tony-kelly-12391b30?trk=nav_responsive_tab_profile_pic"> <img src="img/svg/linkedin-logo.svg" class = "img-rounded"> </a> 
+                </div>
+                    <div class = "col-md-8" id = 'colorblock3'> 
+                        <a href="https://www.youtube.com/channel/UCYVwuCIep1n5hQf-F85FSIQ?spfreload=10"> <img src="img/svg/youtube-logo.svg" class = "img-rounded"></a>  
+                </div>
+            </div>  
+        <div class = "col-md-12, jumbotron" id ='mainImg'>
+            <h2>Web design and development from the ground up.</h2>
                 <img src="img/jpg/beard_club.jpg"  class = "jumboimg, img-rounded">
                 <h3>Lorem Ipsum</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan ac magna vel malesuada. Etiam placerat, massa sit amet vulputate mollis, metus lorem bibendum dolor, id sodales arcu urna et ligula. Vivamus et ante sit amet quam aliquet ullamcorper. Praesent pellentesque ut ligula iaculis sodales. Integer non lacinia nisi. Phasellus at blandit felis, eu faucibus leo. Vestibulum sagittis, diam venenatis gravida dictum, dolor diam tempor mi, semper tincidunt nibh sem quis sem. Mauris nec tempus lorem, at hendrerit enim. Aenean gravida eleifend risus quis varius. Phasellus quis eros in dolor sagittis consequat. Sed eget vehicula sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam finibus maximus ex in pellentesque.
-                    <p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan ac magna vel malesuada. Etiam placerat, massa sit amet vulputate mollis, 
+                    metus lorem bibendum dolor, id sodales arcu urna et ligula. Vivamus et ante sit amet quam aliquet ullamcorper. Praesent pellentesque ut ligula 
+                    iaculis sodales. Integer non lacinia nisi. Phasellus at blandit felis, eu faucibus leo. Vestibulum sagittis, diam venenatis gravida dictum, dolor 
+                    diam tempor mi, semper tincidunt nibh sem quis sem. Mauris nec tempus lorem, at hendrerit enim. Aenean gravida eleifend risus quis varius. Phasellus 
+                    quis eros in dolor sagittis consequat. Sed eget vehicula sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; 
+                    Aliquam finibus maximus ex in pellentesque. </p>
             </div>
         </div>
-        
+    </section>
+<section class = 'servives'>
+    <div class = "row">
+        <div class="col-md-12" id = 'workTitle'>
+            <h1>Services</h1>
+            </div>
+        </div>
+    <div class = 'projects'>
         <div class = "row">
-            <div class="col-md-12" id = 'workTitle'>
-              <h1>Services</h1>
+             <div class="col-md-4" id = 'work1'>
+                <picture>
+                    <a href="http://businessxperience.com"> <img  src="img/png/business_xperience.png"  alt=""/></a>
+                </picture>
+            <h3>Business Xperince</h3>
+            <p> Business Xperince is a development company focused on creating custom and affordable solutions for a small business to succeed.'</p>
+        </div>
+    </div>
+        <div class = "row">
+            <div class="col-md-4" id = 'work2'>
+                <a href="http://tonykelly1286.wixsite.com/color-nerds"> <img src="img/png/Color Nerds Logo1.png"> </a>
+                    <h3>Color Nerds</h3>
+                    <h4>Web Design & Development</h4>
+                    <p>Color Nerds is a frontend driven web design & development company. Please check out our services!</p>
+                </div>
+            </div>
+        <div class = "row">
+            <div class="col-md-4" id = 'work3'>
+                <a href="https://github.com/TonyKelly12"> <img src="img/svg/Git hub octocat.svg"> </a> 
+                <h3>My GitHub Repositories</h3>
+                <p> Feel free to check out my GitHub Repositories!</p>
             </div>
         </div>
-        <div class = 'projects'>
-            <div class = "row">
-                <div class="col-md-4" id = 'work1'>
-             <picture>
-            <a href="http://businessxperience.com"> <img  src="img/png/business_xperience.png"  alt=""/></a>
-             </picture>
-              <h3>Business Xperince</h3>
-              <p> Business Xperince is a development company focused on creating affordable solutions for small business's to succeed.'</p>
-                </div>
-            </div>
-            <div class = "row">
-                <div class="col-md-4" id = 'work2'>
-           <a href="http://tonykelly1286.wixsite.com/color-nerds"> <img src="img/png/Color Nerds Logo1.png"> </a>
-              <h3>Color Nerds</h3>
-              <h4>Web Design & Development</h4>
-              <p>Color Nerds is a frontend driven web design & development company. Please check out our services!</p>
-                </div>
-            </div>
-            <div class = "row">
-                <div class="col-md-4" id = 'work3'>
-               <a href="https://github.com/TonyKelly12"> <img src="img/svg/Git hub octocat.svg"> </a> 
-              <h3>My GitHub Repositories</h3>
-              <p> Feel free to check out my GitHub Repositories!</p>
-                </div>
-            </div>
-        </div>
-     </div>
-    </body>
-</html>>
+    </div>
+</section>
+</div>
+<footer>
+     <p>Created By Tony Kelly </p>
+     <p>Social Media Icon Made by <a href="http://www.flaticon.com/authors/simpleicon">SimpleIcon</a> from www.flaticon.com</p>
+</footer>
+</body>
+</html>

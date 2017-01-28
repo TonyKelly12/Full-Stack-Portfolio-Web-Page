@@ -16,7 +16,7 @@ module.exports = function(grunt){
                     preserveComments: 'all'
                 },
                 src: 'frameworks/js/*.js',
-                dest: 'run/js/script.min.js'
+                dest: 'run/js/script.js'
             }
 
         },
@@ -29,14 +29,6 @@ module.exports = function(grunt){
                     'run/css/styles.css' : 'frameworks/Scss/main.scss',
                     'run/css/styles-sm.css' : 'frameworks/Scss/portfolio-sm.scss',
                     'run/css/styles-lg.css' : 'frameworks/Scss/portfolio-lg.scss'
-                }
-            },
-            build:{
-                options:{
-                    outputStyle: 'compressed'
-                },
-                files:{
-                    'run/css/styles.css' : 'frameworks/scss/main.scss'
                 }
             }
         },

@@ -3,14 +3,15 @@ img, embed, object, video{
     max-width: 100%;
 }
 body{
-   background: url('../img/svg/background.svg') no-repeat center center fixed ;
- -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+     background: url('../img/svg/background.svg') no-repeat center center fixed ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
+
 .container{
-     max-width: 100%;
+    max-width: 100%;
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -18,12 +19,9 @@ body{
 .colorblocks{
   display: flex;
   flex-wrap: wrap;
-   max-width: 100%;
-   margin: auto;
-   
-   order:2
-    
-    
+  max-width: 100%;
+  margin: auto;
+  order:2
 }
 
 .header {
@@ -35,6 +33,7 @@ body{
     height: 35%;
     text-shadow: 3px 2px 12px black;
 }
+
 .header h1{ font-size: 4.5em;
          padding-bottom: -5%;
          margin: .1%;
@@ -45,14 +44,10 @@ body{
         margin: .1%;
 
                }       
-
-
 .title:nth-child(1){
     width: 70%;
     align-self: flex-start;
 }
-
-
 
 .title:nth-child(2){
     width: 40%;
@@ -73,29 +68,27 @@ max-width: 88%;
 padding-left: 5px;
 margin-left: auto;
 margin-right: auto;  
-
 }
+
 .jumbotron{
     background-color: darkorange;
     margin: auto;
-h2,h3,p{
-        color: white;
-        
-    }
-    h2{
-        font-family: 'Arizonia', cursive,;
-        text-align: center;
-        font-size: 7.2vw;
-        padding-bottom: 10px;
-       
-    }
-    p{
-        font-size: 14px;
-    }
-    img{
-    box-shadow: 0 0 15px #777;
-    border: 2px solid black;
-}
+        h2,h3,p{
+            color: white;
+        }
+        h2{
+            font-family: 'Arizonia', cursive,;
+            text-align: center;
+            font-size: 7.2vw;
+            padding-bottom: 10px;
+       }
+        p{
+            font-size: 14px;
+        }
+        img{
+            box-shadow: 0 0 15px #777;
+            border: 2px solid black;
+        }
 }
 
 #workTitle {
@@ -107,9 +100,9 @@ h2,h3,p{
    font-family: 'Arizonia', cursive,;
    color: white;
    
-   h1{
-        font-size: 17.5vw;
-   }
+    h1{
+             font-size: 17.5vw;
+    }
 }
 
 .projects{
@@ -144,18 +137,17 @@ h2,h3,p{
     width:75vw;
     padding: 5%;
 
-     h3{
-        font-size: 30px;
-        color: white;
-    }
-
-        h4{
-            font-size:20px;
+        h3{
+            font-size: 30px;
+            color: white;
         }
-    
-    p{
-        font-size: 16px
-    }
+        h4{
+                font-size:20px;
+            }
+        
+        p{
+            font-size: 16px
+        }
     
     
 } 
@@ -163,31 +155,30 @@ h2,h3,p{
 #work3{
     max-width: 100%;
     width:75vw;
+        h3{
+            font-size: 30px;
+     
+        }
     
-
-     h3{
-        font-size: 30px;
-    }
-    
-    p{
-        font-size: 16px
-    }
-    
-    
+        p{
+            font-size: 16px
+        }
 } 
 
 #colorblock1, #colorblock2, #colorblock3{
-   
+   max-width: 25%;
     padding-top: 5px;
     padding-bottom: 5px;
     margin-left: auto;
     margin-right: auto;
-    display: inline;
+    display: block;
 }
+
 .nav{
     display: none;
     
 }
+
 .glyphicon{
     font-size: 7vw;
     color: white;

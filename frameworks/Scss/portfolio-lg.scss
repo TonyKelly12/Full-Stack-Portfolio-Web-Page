@@ -9,19 +9,13 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-   
-}
+   }
 
 .container{
     width: 100%;
     max-width: 100%;
     margin-left: 5px;
     margin-right: 5px;
-}
-
-.colorblocks{
-    //display: block;
-    
 }
 
 .header {
@@ -34,7 +28,7 @@ body{
     flex-wrap: wrap;
     text-align: right;
     margin: auto;
-      padding-top: 5%;  
+    padding-top: 5%;  
         
          h1{ font-size: 7.5vw;
          padding-bottom: -5%;
@@ -64,10 +58,6 @@ body{
    
 }
 
-
-     
-
-
 #midsect{
     max-width: 100%;
     display:flex;
@@ -77,24 +67,21 @@ body{
 .jumbotron{
     background-color: darkorange;
     margin: auto;
-h2,h3,p{
-        color: white;
-        
-    }
+    h2,h3,p{
+            color: white;
+        }
     h2{
         font-family: 'Arizonia', cursive,;
         text-align: center;
         font-size: 3.2vw;
         padding-bottom: 5px;
         font-size: 5vw;
-    }
+        }
     img{
     box-shadow: 0 0 15px #777;
     border: 2px solid black;
+    }
 }
-}
-
-
 
 #mainImg{
 max-width:85%;
@@ -110,11 +97,10 @@ box-shadow: 0 0 10px #777;
    max-height: 100%;
    max-width: 100%;
    text-align: center;
-  
    font-family: 'Arizonia', cursive,;
    color: white;
    
-   h1{
+    h1{
         font-size: 7.5vw;
    }
 }
@@ -134,17 +120,12 @@ box-shadow: 0 0 10px #777;
     max-width: 76%;
     width:20vw;
     height:500px;
-    
     h3{
         font-size: 30px;
-        
-    }
-    
+        }
     p{
         font-size: 16px
     }
-    
-    
 } 
 
 #work2{
@@ -156,16 +137,12 @@ box-shadow: 0 0 10px #777;
         font-size: 30px;
         color: white;
     }
-
-        h4{
-            font-size:20px;
-        }
-    
+    h4{
+        font-size:20px;
+    }
     p{
         font-size: 16px
     }
-    
-    
 } 
 
 #work3{
@@ -180,24 +157,19 @@ box-shadow: 0 0 10px #777;
     p{
         font-size: 16px
     }
-    
-    
 } 
-    
- 
-  
-
 
 #colorblock1, #colorblock2, #colorblock3{
     max-width: 100%;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     
 }
 
 .glyphicon{
     display: none;
 }
+
 .nav{
     display: inline;
 }
