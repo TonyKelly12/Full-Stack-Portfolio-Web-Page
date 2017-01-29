@@ -129,6 +129,7 @@ body {
   max-width: 97%;
   width: 20vw;
   height: 500px;
+  padding-right: 10px;
 }
 
 #colorblock1, #colorblock2, #colorblock3 {
