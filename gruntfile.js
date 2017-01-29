@@ -6,7 +6,7 @@ module.exports = function(grunt){
         uglify:{
             build: {
                 src: 'frameworks/js/*.js',
-                dest: 'run/js-min/script.min.js'
+                dest: 'run/js/script.js'
             },
             dev:{
                 options:{
@@ -29,6 +29,14 @@ module.exports = function(grunt){
                     'run/css/styles.css' : 'frameworks/Scss/main.scss',
                     'run/css/styles-sm.css' : 'frameworks/Scss/portfolio-sm.scss',
                     'run/css/styles-lg.css' : 'frameworks/Scss/portfolio-lg.scss'
+                }
+            },
+            build:{
+                options:{
+                    outputStyle: 'compressed'
+                },
+                files:{
+                    'run/css/styles.css' : 'frameworks/scss/main.scss'
                 }
             }
         },
