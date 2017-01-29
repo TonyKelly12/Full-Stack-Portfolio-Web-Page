@@ -32,7 +32,6 @@ body {
 
 .header h1 {
   font-size: 7.5vw;
-  padding-bottom: -5%;
   padding-right: 15%;
   margin: .1%;
   order: 0;
@@ -102,7 +101,7 @@ body {
   text-align: center;
   font-family: "Arizonia", cursive;
   color: white;
-  font-size: 10vw;
+  font-size: 7.5vw;
 }
 
 .projects {

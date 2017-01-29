@@ -31,7 +31,6 @@ body{
     padding-top: 5%;  
         
          h1{ font-size: 7.5vw;
-         padding-bottom: -5%;
          padding-right: 15%;
          margin: .1%;
          order:0;
@@ -91,7 +90,7 @@ margin-right: auto;
 box-shadow: 0 0 10px #777; 
 }
 
-#workTitle{
+#workTitle {
    padding-top: 10px;
    padding-bottom: 30px;
    max-height: 100%;
@@ -99,7 +98,9 @@ box-shadow: 0 0 10px #777;
    text-align: center;
    font-family: 'Arizonia', cursive,;
    color: white;
-   font-size: 10vw;
+   font-size: 7.5vw;
+  
+  
 }
 
 .projects{
