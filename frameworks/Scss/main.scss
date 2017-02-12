@@ -14,8 +14,6 @@ body{
 .container{
     width: 100%;
     max-width: 100%;
-    margin-left: 5px;
-    margin-right: 5px;
 }
 
 .header {
@@ -147,4 +145,6 @@ box-shadow: 0 0 10px #777;
 .nav{
     display: none;
 }
-
+footer{
+    text-align: center;
+}

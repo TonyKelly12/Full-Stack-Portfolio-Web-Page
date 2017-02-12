@@ -13,8 +13,6 @@ body {
 .container {
   width: 100%;
   max-width: 100%;
-  margin-left: 5px;
-  margin-right: 5px;
 }
 
 .header {
@@ -146,4 +144,8 @@ body {
 
 .nav {
   display: none;
+}
+
+footer {
+  text-align: center;
 }

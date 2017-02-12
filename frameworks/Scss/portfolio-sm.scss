@@ -8,12 +8,12 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
 }
 
 .container{
     max-width: 100%;
-    margin-left: 5px;
-    margin-right: 5px;
+
 }
 
 .colorblocks{
@@ -181,5 +181,9 @@ margin-right: auto;
 .glyphicon{
     font-size: 7vw;
     color: white;
+}
+
+footer{
+  text-align: center;
 }
 
