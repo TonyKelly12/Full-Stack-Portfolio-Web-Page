@@ -29,32 +29,28 @@ body{
     display:flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
-    text-align: right;
+    text-align: center;
     height: 35%;
     text-shadow: 3px 2px 12px black;
 }
 
-.header h1{ font-size: 4.5em;
-         margin: .1%;
-         order:0;
+.header h1{
+    font-size: 4.5em;
+    margin: .1%;
+    order:0;
+    padding-right: 25%;
         }
 .header h3{
         font-size: 1.5em;
         margin: .1%;
-
+        padding-right: 25%;
                }       
 .title:nth-child(1){
     width: 70%;
     align-self: flex-start;
 }
 
-.title:nth-child(2){
-    width: 40%;
-    order: -1;
-    height: 1%;
-    align-self: flex-start;
-     
-}
+
 
 #midsect{
     display:flex;
@@ -64,12 +60,13 @@ body{
 
 #mainImg{
 max-width: 88%;
-padding-left: 5px;
+
 margin-left: auto;
 margin-right: auto;  
 }
 
 .jumbotron{
+
     background-color: darkorange;
     margin: auto;
         h2,h3,p{
@@ -105,71 +102,24 @@ margin-right: auto;
 }
 
 .projects{
-    max-width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    color: white;
-    
+  display: block;
+  max-width: 100%;
+  align-content: center;
 }
 
-#work1{
-    max-width: 100%;
-    width:65vw;
-    
-    
-    h3{
-        font-size: 30px;
-        
-    }
-    
-    p{
-        font-size: 16px
-    }
-    
-    
-} 
+#work1, #work2, #work3{
+  width: 80vw;
+}
 
 #work2{
-    max-width: 100%;
-    width:75vw;
-    padding: 5%;
-
-        h3{
-            font-size: 30px;
-            color: white;
-        }
-        h4{
-                font-size:20px;
-            }
-        
-        p{
-            font-size: 16px
-        }
-    
-    
-} 
-
-#work3{
-    max-width: 100%;
-    width:75vw;
-        h3{
-            font-size: 30px;
-     
-        }
-    
-        p{
-            font-size: 16px
-        }
-} 
+  padding-top: 25px;
+}
 
 #colorblock1, #colorblock2, #colorblock3{
    max-width: 25%;
     padding-top: 5px;
     padding-bottom: 5px;
-    margin-left: auto;
-    margin-right: auto;
+
     display: block;
 }
 
@@ -183,7 +133,7 @@ margin-right: auto;
     color: white;
 }
 
-footer{
+footer {
   text-align: center;
 }
 

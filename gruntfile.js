@@ -15,7 +15,7 @@ module.exports = function(grunt){
                     compress: false,
                     preserveComments: 'all'
                 },
-                src: 'frameworks/js/*.js',
+                src: 'frameworks/js/**/*.js',
                 dest: 'run/js/script.js'
             }
 
@@ -56,7 +56,7 @@ module.exports = function(grunt){
                 livereload: true
             },
             js: {
-                files: ['frameworks/js/*.js'],
+                files: ['frameworks/js/**/*.js'],
                 tasks: ['uglify: dev']
             },
             css:{
@@ -83,7 +83,7 @@ module.exports = function(grunt){
     grunt.loadNpmTasks('grunt-responsive-images');
     grunt.loadNpmTasks('grunt-contrib-connect');
     //Register Task(s)
-    grunt.registerTask('default', ['uglify:dev', 'sass:dev']);
+    grunt.registerTask('default', ['sass:dev']);
     grunt.registerTask('build', ['uglify:build', 'sass:build']);
     grunt.registerTask('serv', ['default','connect:dev', 'watch']);
 };

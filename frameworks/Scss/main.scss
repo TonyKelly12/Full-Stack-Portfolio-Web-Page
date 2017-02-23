@@ -12,7 +12,7 @@ body{
 }
 
 .container{
-    width: 100%;
+
     max-width: 100%;
 }
 
@@ -24,19 +24,20 @@ body{
     display:flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
-    text-align: right;
+    text-align: center;
     margin: auto;
     padding-top: 5%;  
         
-         h1{ font-size: 7.5vw;
-         padding-right: 15%;
-         margin: .1%;
-         order:0;
+         h1{
+           font-size: 10.5vw;
+           padding-right: 25%;
+           margin: .1%;
+           order:0;
         }
              h3{
                 font-size: 3vw;
                 margin: .1%;
-                padding-right: 15%;
+                padding-right: 25%;
                }       
 }
 
@@ -46,19 +47,13 @@ body{
     align-self: flex-start;
 }
 
-.title:nth-child(2){
-    width: 15%;
-    order: 2;
-    height: 1%;
-    align-self: flex-start;
-    padding-right: 25px; 
-   
-}
+
 
 #midsect{
-    max-width: 100%;
+    max-width: 90vw;
+    min-height: 100vh;
     display:flex;
-    margin: 2.5%
+
 }
 .jumbotron{
     background-color: darkorange;
@@ -97,36 +92,69 @@ box-shadow: 0 0 10px #777;
    font-family: 'Arizonia', cursive,;
    color: white;
    font-size: 7.5vw;
-  
-  
+
+
 }
 
+
+
+
 .projects{
-    max-width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    text-align: center;
-    color: white;
+  max-width: 90vw;
+  min-height: 60vh;
+  justify-content: space-between;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left:45px;
+}
+
+
+#work1.project.fade-in{
+  opacity:1;
+  transform: translateY(0);
+}
+
+#work2.project.fade-in{
+  opacity:1;
+  transform: translateY(0);
+}
+
+#work3.project.fade-in{
+  opacity:1;
+  transform: translateY(0);
 }
 
 #work1{
-    max-width: 76%;
-    width:20vw;
-    height:500px;
+
+  width: 20vw;
+  height:500px;
+  opacity:0;
+  transform: translateY(50px);
+  transition: all 1s ease-out;
 }   
 
 #work2{
-    max-width: 107%;
-    width:20vw;
-    height: 500px;
+
+  width:20vw;
+  height: 500px;
+  opacity:0;
+  transform: translateY(50px);
+  transition: all 1s ease-out;
 } 
 
 #work3{
-    max-width: 97%;
-    width:20vw;
-    height: 500px;
-    padding-right: 10px;
+
+
+  width:20vw;
+  height: 500px;
+  padding-right: 10px;
+  opacity:0;
+  transform: translateY(50px);
+  transition: all 1s ease-out;
+
+
 } 
     
 #colorblock1, #colorblock2, #colorblock3{
