@@ -1,4 +1,7 @@
-img, embed, object, video {
+img,
+embed,
+object,
+video {
   max-width: 100%;
 }
 
@@ -72,7 +75,9 @@ body {
   margin: auto;
 }
 
-.jumbotron h2, .jumbotron h3, .jumbotron p {
+.jumbotron h2,
+.jumbotron h3,
+.jumbotron p {
   color: white;
 }
 
@@ -112,7 +117,9 @@ body {
   align-content: center;
 }
 
-#work1, #work2, #work3 {
+#work1,
+#work2,
+#work3 {
   width: 80vw;
 }
 
@@ -120,7 +127,9 @@ body {
   padding-top: 25px;
 }
 
-#colorblock1, #colorblock2, #colorblock3 {
+#colorblock1,
+#colorblock2,
+#colorblock3 {
   max-width: 25%;
   padding-top: 5px;
   padding-bottom: 5px;

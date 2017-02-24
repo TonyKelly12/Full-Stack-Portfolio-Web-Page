@@ -54,7 +54,9 @@ body {
   margin: auto;
 }
 
-.jumbotron h2, .jumbotron h3, .jumbotron p {
+.jumbotron h2,
+.jumbotron h3,
+.jumbotron p {
   color: white;
 }
 
@@ -144,7 +146,9 @@ body {
   font-size: 16px;
 }
 
-#colorblock1, #colorblock2, #colorblock3 {
+#colorblock1,
+#colorblock2,
+#colorblock3 {
   max-width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
