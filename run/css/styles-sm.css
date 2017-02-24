@@ -32,6 +32,11 @@ body {
   text-shadow: 3px 2px 12px black;
 }
 
+.title {
+  align-self: center;
+  width: 80vw;
+}
+
 .header h1 {
   font-size: 4.5em;
   margin: .1%;
