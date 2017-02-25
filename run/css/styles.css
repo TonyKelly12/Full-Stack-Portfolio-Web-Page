@@ -77,6 +77,8 @@ body {
 .jumbotron img {
   box-shadow: 0 0 15px #777;
   border: 2px solid black;
+  max-width: 100%;
+  align-self: center;
 }
 
 #mainImg {
@@ -155,6 +157,7 @@ body {
   max-width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-right: 10px;
   color: white;
 }
 

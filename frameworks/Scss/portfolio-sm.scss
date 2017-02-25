@@ -3,19 +3,19 @@ img,
 embed,
 object,
 video{
-    max-width: 100%;
+  max-width: 100%;
 }
 body{
-     background: url('../img/svg/background.svg') no-repeat center center fixed ;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  background: url('../img/svg/background.svg') no-repeat center center fixed ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
 }
 
 .container{
-    max-width: 100%;
+  max-width: 100%;
 
 }
 
@@ -28,85 +28,86 @@ body{
 }
 
 .header {
-    font-family: 'Arizonia', cursive;
-    display:flex;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-    text-align: center;
-    height: 35%;
-    text-shadow: 3px 2px 12px black;
+  font-family: 'Arizonia', cursive;
+  display:flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  text-align: center;
+  height: 35%;
+  text-shadow: 3px 2px 12px black;
 }
+
 .title{
   align-self: center;
   width: 80vw;
 }
+
 .header h1{
-    font-size: 4.5em;
-    margin: 0.1%;
-    order:0;
-    padding-right: 25%;
-        }
-.header h3{
-        font-size: 1.5em;
-        margin: 0.1%;
-        padding-right: 25%;
-               }       
-.title:nth-child(1){
-    width: 70%;
-    align-self: flex-start;
+  font-size: 4.5em;
+  margin: 0.1%;
+  order:0;
+  padding-right: 25%;
 }
 
+.header h3{
+  font-size: 1.5em;
+  margin: 0.1%;
+  padding-right: 25%;
+}
 
+.title:nth-child(1){
+  width: 70%;
+  align-self: flex-start;
+}
 
 #midsect{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #mainImg{
-max-width: 88%;
-
-margin-left: auto;
-margin-right: auto;  
+  max-width: 88%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .jumbotron{
 
-    background-color: darkorange;
-    margin: auto;
-        h2,
-        h3,
-        p{
-            color: white;
-        }
-        h2{
-            font-family: 'Arizonia', cursive,;
-            text-align: center;
-            font-size: 7.2vw;
-            padding-bottom: 10px;
-       }
-        p{
-            font-size: 14px;
-        }
-        img{
-            box-shadow: 0 0 15px #777;
-            border: 2px solid black;
-        }
+  background-color: darkorange;
+  margin: auto;
+  h2,
+  h3,
+  p{
+    color: white;
+  }
+  h2{
+    font-family: 'Arizonia', cursive,;
+    text-align: center;
+    font-size: 7.2vw;
+    padding-bottom: 10px;
+  }
+  p{
+    font-size: 14px;
+  }
+  img{
+    box-shadow: 0 0 15px #777;
+    border: 2px solid black;
+  }
 }
 
 #workTitle {
-   padding-top: 10px;
-   padding-bottom: 30px;
-   max-height: 100%;
-   max-width: 100%;
-   text-align: center;
-   font-family: 'Arizonia', cursive,;
-   color: white;
-   
-    h2{
-             font-size: 17.5vw;
-    }
+  padding-top: 10px;
+  padding-bottom: 30px;
+  max-height: 100%;
+  max-width: 100%;
+  text-align: center;
+  font-family: 'Arizonia', cursive,;
+  color: white;
+
+  h2{
+    font-size: 17.5vw;
+  }
 }
 
 .projects{
@@ -115,7 +116,9 @@ margin-right: auto;
   align-content: center;
 }
 
-#work1, #work2, #work3{
+#work1,
+#work2,
+#work3{
   width: 80vw;
 }
 
@@ -123,22 +126,23 @@ margin-right: auto;
   padding-top: 25px;
 }
 
-#colorblock1, #colorblock2, #colorblock3{
-   max-width: 25%;
-    padding-top: 5px;
-    padding-bottom: 5px;
-
-    display: block;
+#colorblock1,
+#colorblock2,
+#colorblock3{
+  max-width: 25%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: block;
 }
 
 .nav{
-    display: none;
+  display: none;
     
 }
 
 .glyphicon{
-    font-size: 7vw;
-    color: white;
+  font-size: 7vw;
+  color: white;
 }
 
 footer {

@@ -1,107 +1,100 @@
 $leftpad: 5%;
 
-
 body{
-    background: url('../img/svg/background.svg') no-repeat center center fixed ;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-   }
+  background: url('../img/svg/background.svg') no-repeat center center fixed ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 .container{
-    width: 100%;
-    max-width: 100%;
-
+  width: 100%;
+  max-width: 100%;
 }
 
 .header {
-    max-height: 100%;
-    max-width: 100%;
-    font-family: 'Arizonia', cursive,;
-    color: white;
-    display:flex;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-    text-align: center;
-    margin: auto;
-    padding-top: 5%;  
-        
-         h1{
-           font-size: 10.5vw;
-           padding-right: 25%;
-           margin: .1%;
-           order:0;
-        }
-             h3{
-                font-size: 3vw;
-                margin: 0.1%;
-                padding-right: 25%;
-               }       
+  max-height: 100%;
+  max-width: 100%;
+  font-family: 'Arizonia', cursive,;
+  color: white;
+  display:flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: auto;
+  padding-top: 5%;
+
+  h1{
+    font-size: 10.5vw;
+    padding-right: 25%;
+    margin: .1%;
+    order:0;
+  }
+  h3{
+    font-size: 3vw;
+    margin: 0.1%;
+    padding-right: 25%;
+  }
 }
 
 .title:nth-child(1){
-    width: 70%;
-    height: 1%;
-    align-self: flex-start;
+  width: 70%;
+  height: 1%;
+  align-self: flex-start;
 }
 
-
-
-
 #midsect{
-    max-width: 100%;
-    display:flex;
-    margin: 2.5%
+  max-width: 100%;
+  display:flex;
+  margin: 2.5%
 }
 
 .jumbotron{
-    background-color: darkorange;
-    margin: auto;
+  max-width: 100%;
+  background-color: darkorange;
     h2,
     h3,
     p{
-            color: white;
-        }
+      color: white;
+    }
     h2{
-        font-family: 'Arizonia', cursive,;
-        text-align: center;
-        font-size: 3.2vw;
-        padding-bottom: 5px;
-        font-size: 5vw;
-        }
+      font-family: 'Arizonia', cursive,;
+      text-align: center;
+      font-size: 3.2vw;
+      padding-bottom: 5px;
+      font-size: 5vw;
+    }
     img{
-    box-shadow: 0 0 15px #777;
-    border: 2px solid black;
+      box-shadow: 0 0 15px #777;
+      border: 2px solid black;
+      align-items: center;
     }
 }
 
 #mainImg{
-max-width:85%;
-padding-left: $leftpad;
-margin-left: auto;
-margin-right: auto;  
-box-shadow: 0 0 10px #777; 
+  max-width:85%;
+  padding-left: $leftpad;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 10px #777;
 }
 
 #workTitle {
-   padding-top: 10px;
-   padding-bottom: 30px;
-   max-height: 100%;
-   max-width: 100%;
-   text-align: center;
-   font-family: 'Arizonia', cursive,;
-   color: white;
-   
-    h2{
-        font-size: 7.5vw;
-   }
+  padding-top: 10px;
+  padding-bottom: 30px;
+  max-height: 100%;
+  max-width: 100%;
+  text-align: center;
+  font-family: 'Arizonia', cursive,;
+  color: white;
+
+  h2{
+    font-size: 7.5vw;
+  }
 }
 
-
-
 #work1{
-
   width:200px;
   height:500px;
   h3{
@@ -116,51 +109,42 @@ box-shadow: 0 0 10px #777;
 }
 
 #work2{
-
-    width:200px;
-    height: 500px;
-
-     h3{
-        font-size: 30px;
-        color: white;
-    }
-    h4{
-        font-size:20px;
-    }
-    p{
-        font-size: 16px
-    }
+  width:200px;
+  height: 500px;
+  h3{
+    font-size: 30px;
+    color: white;
+  }
+  h4{
+    font-size:20px;
+  }
+  p{
+    font-size: 16px
+  }
   opacity:0;
   transform: translateY(50px);
   transition: all 1s ease-out;
 }
 
 #work3{
-
-    width:200px;
-    height: 500px;
-    padding-right: 10px;
-
-     h3{
-        font-size: 30px;
-    }
-
-    p{
-        font-size: 16px
-    }
-
-
+  width:200px;
+  height: 500px;
+  padding-right: 10px;
+  h3{
+    font-size: 30px;
+  }
+  p{
+    font-size: 16px
+  }
 }
 
-#colorblock1, #colorblock2, #colorblock3{
-    max-width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    
-}
-
-.glyphicon{
-    display: none;
+#colorblock1,
+#colorblock2,
+#colorblock3{
+  max-width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
 }
 
 .nav{
