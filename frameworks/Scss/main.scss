@@ -3,18 +3,19 @@ $leftpad: 5%;
 img,
 embed,
 object,
-video{
+video {
   max-width: 100%;
 }
-body{
-  background: url('../img/svg/background.svg') no-repeat center center fixed ;
+
+body {
+  background: url('../img/svg/background.svg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-.container{
+.container {
   max-width: 100%;
 }
 
@@ -23,39 +24,39 @@ body{
   max-width: 100%;
   font-family: 'Arizonia', cursive,;
   color: white;
-  display:flex;
+  display: flex;
   flex-direction: row-reverse;
   flex-wrap: wrap;
   text-align: center;
   margin: auto;
   padding-top: 5%;
-
   h1{
     font-size: 10.5vw;
     padding-right: 25%;
     margin: 0.1%;
-    order:0;
+    order: 0;
   }
-  h3{
+
+  h3 {
     font-size: 3vw;
     margin: 0.1%;
     padding-right: 25%;
   }
 }
 
-.title:nth-child(1){
+.title:nth-child(1) {
   width: 70%;
   height: 1%;
   align-self: flex-start;
 }
 
-#midsect{
+#midsect {
   max-width: 90vw;
   min-height: 100vh;
-  display:flex;
-
+  display: flex;
 }
-.jumbotron{
+
+.jumbotron {
   background-color: darkorange;
   margin: auto;
   h2,
@@ -63,14 +64,16 @@ body{
   p{
     color: white;
   }
-  h2{
+
+  h2 {
     font-family: 'Arizonia', cursive,;
     text-align: center;
     font-size: 3.2vw;
     padding-bottom: 5px;
     font-size: 4vw;
   }
-  img{
+
+  img {
     box-shadow: 0 0 15px #777;
     border: 2px solid black;
     max-width: 100%;
@@ -78,8 +81,8 @@ body{
   }
 }
 
-#mainImg{
-  max-width:85%;
+#mainImg {
+  max-width: 85%;
   padding-left: $leftpad;
   margin-left: auto;
   margin-right: auto;
@@ -97,7 +100,7 @@ body{
   font-size: 7.5vw;
 }
 
-.projects{
+.projects {
   max-width: 90vw;
   min-height: 60vh;
   justify-content: space-between;
@@ -105,52 +108,52 @@ body{
   color: white;
   display: flex;
   flex-wrap: wrap;
-  padding-left:45px;
+  padding-left: 45px;
 }
 
-#work1.project.fade-in{
-  opacity:1;
+#work1.project.fade-in {
+  opacity: 1;
   transform: translateY(0);
 }
 
-#work2.project.fade-in{
-  opacity:1;
+#work2.project.fade-in {
+  opacity: 1;
   transform: translateY(0);
 }
 
-#work3.project.fade-in{
-  opacity:1;
+#work3.project.fade-in {
+  opacity: 1;
   transform: translateY(0);
 }
 
-#work1{
+#work1 {
   width: 20vw;
-  height:500px;
-  opacity:0;
-  transform: translateY(50px);
-  transition: all 1s ease-out;
-}   
-
-#work2{
-  width:20vw;
   height: 500px;
-  opacity:0;
+  opacity: 0;
   transform: translateY(50px);
   transition: all 1s ease-out;
-} 
+}
 
-#work3{
-  width:20vw;
+#work2 {
+  width: 20vw;
+  height: 500px;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 1s ease-out;
+}
+
+#work3 {
+  width: 20vw;
   height: 500px;
   padding-right: 10px;
-  opacity:0;
+  opacity: 0;
   transform: translateY(50px);
   transition: all 1s ease-out;
 }
-    
+
 #colorblock1,
 #colorblock2,
-#colorblock3{
+#colorblock3 {
   max-width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -158,14 +161,15 @@ body{
   color: white;
 }
 
-.glyphicon{
+.glyphicon {
   font-size: 7vw;
   color: white;
 }
 
-.nav{
+.nav {
   display: none;
 }
-footer{
+
+footer {
   text-align: center;
 }
